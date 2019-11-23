@@ -28,16 +28,16 @@ int my_comparer(const void *this, const void *that)
 	Process *p_2 = (Process*)that;
 	
 	// Sorted based on priority in descending order 
-	if (p_1->priority > p_2->priority){
+	if (p_1->priority > p_2->priority) {
 		return -1; 
 	}
-	else if(p_1->priority < p_2->priority){
+	else if(p_1->priority < p_2->priority) {
 		return 1;
 	}
 	else{
 		// If priority values are equal, 
 		// they are sorted based on arrival time based on ascending order 
-		if (p_1->arrival_time > p_2->arrival_time){
+		if (p_1->arrival_time > p_2->arrival_time) {
 			return 1;
 		}
 		else{

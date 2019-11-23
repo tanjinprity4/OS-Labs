@@ -3,7 +3,7 @@
 
 typedef int (*Operation) (int a, int b);
 
-/* IMPLEMENT ME: Declare your functions here */
+/* Declaring the functions here */
 int add (int a, int b);
 int subtract(int a, int b);
 int multiply(int a, int b);
@@ -50,7 +50,7 @@ int main (void)
 	return 0;
 }
 
-/* IMPLEMENT ME: Define your functions here */
+/* Defining the functions here */
 int add (int a, int b) { 
   printf ("Adding 'a' and 'b'\n"); 
   return a + b; 

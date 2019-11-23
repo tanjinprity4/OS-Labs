@@ -1,0 +1,3 @@
+Task1 contains func-ptr.c file which implemenats a program that sorts the content of a input file with qsort. The input file contains process ids with corresponding priority and arrival time. If the content it is sorted based on priority, it should be descending order. However, if two
+priority values are equal, arrival time should be consider as the second
+condition. The smaller arrival time with equal priority comes first. 

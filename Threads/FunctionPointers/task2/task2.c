@@ -27,9 +27,9 @@ int main (void)
   int result;
   
   while(1){
-		printf("Operand 'a' : %d | Operand 'b' : %d Specify the operation to perform (0 : add | 1 : subtract | 2 : Multiply | 3: divide | 4 : exit):", 
+    printf("Operand 'a' : %d | Operand 'b' : %d Specify the operation to perform (0 : add | 1 : subtract | 2 : Multiply | 3: divide | 4 : exit):", 
            a, b);
-		scanf("%s", operation);
+    scanf("%s", operation);
     operation_n = atoi(operation);
     while (operation_n > 4) {
       printf("Specify the operation to perform (0 : add | 1 : subtract | 2 : Multiply | 3: divide | 4 : exit):");
